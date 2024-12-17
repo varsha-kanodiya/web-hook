@@ -2,15 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage('git clone') {
+        stage('Hello') {
             steps {
-                 git 'https://github.com/Pritam-Khergade/student-ui.git'
-
+                echo 'Hello World'
             }
-       
         }
-   }      
-  
-}  
-  
-  
+    }
+}
